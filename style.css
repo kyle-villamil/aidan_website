@@ -1,0 +1,543 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #F9F7F0;
+}
+
+
+.topNavBar{
+    background-color: #B6C1C1;
+    height: 80px;
+    overflow-x: hidden;
+    position: sticky;
+    top: 0vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.rectangle2{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top: 19px;
+    background-color: #a4aaaa;
+    transform: skew(20deg);
+    border-radius: 10px;
+}
+
+.rectangle3{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    background-color: rgb(192, 189, 189);
+    border-radius: 10px;
+}
+
+.rectangle4{
+    width: 94vw;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+    top: -10px;
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+.title1 {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    left: 6vw;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav {
+    position: absolute;
+    z-index: 1;
+    right: 5vh;
+    overflow: hidden;
+    background-color: rgb(222, 222, 252);
+    border-radius: 10px;
+}
+
+
+
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 10px;
+    background-color: transparent;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #B6C1C1;
+    color: black;
+    box-shadow: 2px 5px 100px black;
+}
+  
+ /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #F9F7F0;
+    color: black;
+}
+
+
+/* ABOUT PAGE TOPNAV SHIT */
+.topnavAbout {
+    position: absolute;
+    z-index: 1;
+    right: 6.5vh;
+    overflow: hidden;
+    background-color: rgb(222, 222, 252);
+    border-radius: 10px;
+}
+
+.topnavAbout a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.topnavAbout a:hover {
+    background-color: #B6C1C1;
+    color: black;
+    box-shadow: 2px 5px 100px black;
+}
+  
+ /* Add a color to the active/current link */
+.topnavAbout a.active {
+    background-color: #F9F7F0;
+    color: black;
+}
+
+
+
+
+
+
+.sect1{
+    margin-top: 5vh;
+    margin-left: 21vw;
+    margin-right: 21vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    /* border: 3px solid blue; */
+}
+
+.header1{
+    font-size: 80px;
+    margin: 0px;
+    /* border: 3px solid blue; */
+
+}
+
+.para1{
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    font-size: 35px;
+    /* border: 3px solid blue; */
+
+}
+
+.imgDiv{
+    margin-left: 7dvw;
+    /* border: 3px solid blue; */
+
+}
+
+.img1{
+    display: block;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px black;
+    transition: 0.5s;
+}
+
+.img1:hover{
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+
+
+/* SECTION 2 */
+
+.sect2{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    /* border: 3px solid blue; */
+}
+
+.words2{
+    border-width: 3px;
+    /* border: 3px solid blue; */
+}
+
+.header2{
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+}
+
+.para2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    width: 50dvw;
+}
+
+.para2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.para2 a:hover{
+    color: rgb(134, 134, 213);
+    transition: 0.3s;
+}
+
+.sect2Spam{
+    font-style: italic;
+    font-size: 12px;
+    margin-right: 50px;
+    opacity: 0.5;
+}
+
+.sect2SpamHidden{
+    color: transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sect2SpamHidden p{
+    box-shadow: 30px 5px 100px #E7E6E2;
+    border-radius: 50px;
+}
+
+.portfolioButton{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    /* border: 3px solid red; */
+    text-decoration: none;
+    z-index: 0;
+}
+
+.portfolioButton a{
+    text-decoration: none;
+}
+
+.circle{
+    background-color: lavender;
+    border: 2px solid black;
+    position: relative;
+    transition: 0.3s;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px 5px 15px black;
+}
+
+.circle p{
+    background-color: transparent;
+    position: relative;
+    color: black;
+    font-size: 24px;
+    height: 30px;
+    top: -11px;
+    font-family: 'Space Grotesk', serif;
+}
+
+.circle:hover{
+    transition: 0.3s;
+    background-color: #B6C1C1;
+}
+
+.sect2SpamUX{
+    font-style: italic;
+    font-size: 12px;
+    opacity: 0.25;
+    margin-left: 150px;
+    background-image: linear-gradient(#F9F7F0, #B6C1C1, #F9F7F0);
+    border-radius: 100px;
+}
+
+.sect2SpamUX p{
+    background-color: transparent;
+}
+
+.flowerSect{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.sect2SpamUI{
+    font-style: italic;
+    font-size: 12px;
+    margin-right: 150px;
+    text-align: right;
+    opacity: 0.25;
+    background-image: linear-gradient(#F9F7F0, #B6C1C1, #F9F7F0);
+    border-radius: 100px;
+}
+.sect2SpamUI p{
+    background-color: transparent;
+}
+
+.sect3Img{
+    text-align: center;
+    /* border: 3px solid black; */
+}
+
+
+/* Real section 3 */
+
+
+
+.sect3{
+    display: grid;
+    grid-template-columns: 49.5% 0.5% 50%;
+}
+
+.col1{
+    text-align: center;
+}
+
+.uxShit h1{
+    font-size: 70px;
+}
+
+.uxShit p{
+    margin-left: 5vw;
+    margin-right: 4vw;
+    font-size: 35px;
+    text-align: left;
+    padding-bottom: 9.8vh;
+}
+
+.uxButton{
+    width: 4vw;
+    margin-left: 22vw;
+}
+
+.uxButton a{
+    text-decoration: none;
+}
+
+.circleUX{
+    background-color: lavender;
+    border: 2px solid black;
+    transition: 0.3s;
+    width: 4vw;
+    height: 6vh;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px 5px 15px black;
+    margin-bottom: 30px;
+
+}
+
+.circleUX p{
+    background-color: transparent;
+    position: relative;
+    color: black;
+    font-size: 24px;
+    top: -11px;
+    font-family: 'Space Grotesk', serif;
+    /* border: 3px solid black; */
+}
+
+.circleUX:hover{
+    transition: 0.3s;
+    background-color: #B6C1C1;
+}
+
+
+/* .uxImage{
+    padding-top: 2vh;
+} */
+
+
+.col2{
+    background-color: black;
+    width: 1px;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+
+
+
+.col3{
+    text-align: center;
+}
+
+.uiShit h1{
+    font-size: 70px;
+}
+
+.uiShit p{
+    margin-left: 5vw;
+    margin-right: 4vw;
+    font-size: 35px;
+    text-align: left;
+}
+
+.uiButton{
+    width: 4vw;
+    margin-left: 22vw;
+}
+
+.uiButton a{
+    text-decoration: none;
+}
+
+.circleUI{
+    background-color: lavender;
+    border: 2px solid black;
+    transition: 0.3s;
+    width: 4vw;
+    height: 6vh;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px 5px 15px black;
+    margin-bottom: 30px;
+}
+
+.circleUI p{
+    background-color: transparent;
+    position: relative;
+    color: black;
+    font-size: 24px;
+    top: -11px;
+    font-family: 'Space Grotesk', serif;
+    /* border: 3px solid black; */
+}
+
+.circleUI:hover{
+    transition: 0.3s;
+    background-color: #B6C1C1;
+}
+
+.uiImage{
+    padding-top: 5vh;
+}
+
+.bottomText{
+    font-size: 14px;
+}
+
+
+
+
+/* ABOUT PAGE ABOUT PAGE ABOUT PAGE ABOPUT PAGE */
+
+.aboutContent{
+    margin-top: 3vh;
+    /* border: 3px solid black; */
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 22vw;
+    margin-right: 22vw;
+}
+
+.aboutHeader{
+    /* border: 3px solid black; */
+    margin-bottom: 3vh;
+    font-size: 68px;
+}
+
+.aboutPara{
+    /* border: 3px solid black; */
+    font-size: 23px;
+
+    margin-left: 3vw;
+}
+
+.aboutContent img{
+    /* border: 3px solid black; */
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px black;
+    height: auto;
+    width: 338px;
+    display: block;
+}
+
+.contactGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 30vw;
+    margin-left: 35vw;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #F4F0E2;
+    border-radius: 5px;
+}
+
+.contactGrid div, .contactGrid a{
+    background-color: transparent;
+}
+
+.contactHeader{
+    font-size: 35px;
+    margin-bottom: 2vh;
+}
+
+.contactText{
+    width: 75%;
+    line-height: 0.6cm;
+}
+
+.contactInfo{
+    display: grid;
+    grid-template-columns: 100%;
+    line-height: 0.6cm;
+    text-align: right;
+}
+
+.contactInfo a{
+    color: black;
+    text-decoration: underline;
+}
+
+.contactInfo a div:hover{
+    color: rgb(134, 134, 213);
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.contactInfo a div{
+    display: inline-block;
+    transition: 0.3s;
+    text-decoration: underline;
+}
