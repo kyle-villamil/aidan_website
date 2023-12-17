@@ -4,18 +4,23 @@
     background-color: #F9F7F0;
 }
 
+.body{
+    overflow-x: hidden; 
+}
 
 .topNavBar{
     background-color: #B6C1C1;
     height: 80px;
+    width: 100%;
     overflow-x: hidden;
-    position: sticky;
-    top: 0vh;
+    position: fixed;
+    top: 0px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
     align-items: center;
     z-index: 1;
+    box-shadow: 1px 1px 15px black;
 }
 
 .rectangle2{
@@ -45,7 +50,7 @@
     position: absolute;
     left: 50px;
     top: -10px;
-    background-color: lavender;
+    background-color: #B6C1C1;
     border-radius: 10px;
 }
 
@@ -63,7 +68,7 @@
 .topnav {
     position: absolute;
     z-index: 1;
-    right: 5vh;
+    right: 50px;
     overflow: hidden;
     background-color: rgb(222, 222, 252);
     border-radius: 10px;
@@ -100,7 +105,7 @@
 
 
 /* ABOUT PAGE TOPNAV SHIT */
-.topnavAbout {
+/* .topnavAbout {
     position: absolute;
     z-index: 1;
     right: 6.5vh;
@@ -127,11 +132,10 @@
     box-shadow: 2px 5px 100px black;
 }
   
- /* Add a color to the active/current link */
 .topnavAbout a.active {
     background-color: #F9F7F0;
     color: black;
-}
+}  */
 
 
 
@@ -139,7 +143,7 @@
 
 
 .sect1{
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: 21vw;
     margin-right: 21vw;
     display: grid;
@@ -541,3 +545,333 @@
     transition: 0.3s;
     text-decoration: underline;
 }
+
+
+
+
+/* PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE  */
+/* PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE  */
+/* PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE  */
+/* PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE  */
+
+
+
+.portGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 0px;
+    text-align: center;
+}
+
+.portGrid a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.paint a{
+    color: black;
+}
+
+.sculpt a{
+    color: white;
+}
+
+.event a{
+    color: black;
+}
+
+.photoAndGraphic a{
+    color: white;
+}
+
+
+.portGrid div:nth-child(even){
+    background-color: #1E1E1C;
+    color: white;
+} 
+
+.filler1{
+    height: 15vh;
+}
+
+.filler3{
+    text-align: left;
+}
+
+.portHeader{
+    margin-left: 7vw;
+    text-align: left;
+    font-size: 60px;
+    width: 30vw;
+    /* border: 3px solid red; */
+}
+
+.portPara{
+    font-size: 22px;
+    padding-left: 7vw;
+    text-align: left;
+    padding-bottom: 10vh;
+    /* border: 3px solid red; */
+}
+
+.portPara p{
+    font-size: 12px;
+    background-color: #1E1E1C;
+}
+
+.portGrid img{
+    width: 35vw;
+    height: auto;
+    border: 2px solid;
+}
+
+.portGrid img:nth-child(even){
+    border-color: white;
+}
+
+.photoAndGraphic{
+    background-color: #1E1E1C;
+}
+
+.photo{
+    background-color: transparent;
+    margin-bottom: 15vh;
+}
+
+/* .paintImg:hover{
+    opacity: 0.3;
+} */
+
+
+
+.paint a nav{
+    margin-left: 7vw;
+    background-color: transparent;
+    width: 35vw;
+    position: relative;
+    top: -50vh;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 50px;
+}
+
+.sculpt a nav{
+    margin-left: 7vw;
+    background-color: transparent;
+    width: 35vw;
+    position: relative;
+    top: -50vh;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 50px;
+}
+
+.event a nav{
+    margin-left: 7vw;
+    background-color: transparent;
+    width: 35vw;
+    position: relative;
+    top: -55vh;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 50px;
+}
+
+.photo a nav{
+    margin-left: 7vw;
+    background-color: transparent;
+    width: 35vw;
+    position: relative;
+    top: -28vh;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 50px;
+}
+
+.graphic a nav{
+    margin-left: 7vw;
+    background-color: transparent;
+    width: 35vw;
+    position: relative;
+    top: -38vh;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 50px;
+}
+
+.portGrid a:hover img{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.portGrid a:hover nav{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+
+/* .portCol1 a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.portCol2 a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    color: white;
+    width: 36vw;
+    margin-left: 7vw;
+}
+
+.portCol1{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: transparent;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+    width: 36vw;
+    margin-left: 6.5vw;
+}
+
+.portCol2{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #1E1E1C;
+    height: 100%;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+    width: 50vw;
+}
+
+
+.portHeader{
+    font-size: 60px;
+    text-align: left;
+}
+
+.portPara{
+    background-color: transparent;
+    text-align: left;
+    color: white;
+    margin-left: 7vw;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.portPara p{
+    font-style: italic;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+
+
+.portItem1:hover .paintImg{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.portItem1:hover .middleText1{
+    opacity: 1.0;
+    transition: 0.5s;
+}
+
+.middleText1{
+    opacity: 0;
+    position: relative;
+    top: -50vh;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.portText1{
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.paintImg{
+    width: 35vw;
+    height: auto;
+    transition: 0.3s;
+    border: 2px solid black;
+    border-top-width: 1px;
+}
+
+
+
+
+
+.sculptImg{
+    width: 35vw;
+    height: auto;
+    transition: 0.2s;
+    border: 2px solid white;
+
+}
+
+.portItem2:hover .sculptImg{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.portItem2:hover .middleText2{
+    opacity: 1.0;
+    transition: 0.5s;
+}
+
+.middleText2{
+    opacity: 0;
+    position: relative;
+    top: -50vh;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.portText2{
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.portItem2{
+    background-color: transparent;
+    width: 36vw;
+}
+
+
+
+
+
+.portItem3:hover .eventImg{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.portItem3:hover .middleText3{
+    opacity: 1.0;
+    transition: 0.5s;
+}
+
+.middleText3{
+    opacity: 0;
+    position: relative;
+    top: -50vh;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.portText3{
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.eventImg{
+    width: 35vw;
+    height: auto;
+    transition: 0.3s;
+    border: 2px solid black;
+    border-top-width: 1px;
+} */

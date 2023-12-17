@@ -1,0 +1,6 @@
+#1E1E1C (dark grey/almost black) - used on portfolio PAGE
+
+#F9F7F0 (beige-ish yellow idk man) - main background color for entire site 
+
+#B6C1C1 (pastel-like green or something tbh) - original nav bar main color
+
